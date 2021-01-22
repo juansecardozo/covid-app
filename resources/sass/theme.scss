@@ -1,0 +1,31 @@
+.card {
+    background-color: #222a41;
+    border: none;
+}
+.clickable {
+    cursor: pointer !important;
+}
+.nav-tabs {
+    border-bottom-color: #222a41 !important;
+}
+.nav-link {
+    cursor: pointer;
+}
+.nav-link.active {
+    color: $body-color !important;
+    background-color: #222a41 !important;
+    border-color: #222a41 #222a41 #222a41 !important;
+}
+.nav-link:hover {
+    border-color: #222a41 #222a41 #222a41 !important;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #222a41 !important;
+}
+.table thead th {
+    border-bottom-color: #222a41 !important;
+}
+.table th,
+.table td {
+    border-top: none !important;
+}
